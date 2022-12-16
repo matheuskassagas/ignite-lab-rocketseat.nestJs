@@ -71,6 +71,9 @@ $ nest new project-name
 ```bash
 $ npm i prisma -D
 $ npm i @prisma/client
+
+# DB
+$ npx prisma init --datasource-provider SQLite
 ```
 
 ## Support
@@ -83,6 +86,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 - Documentation - [Documentation](https://docs.nestjs.com/)
+- Videos used - [Aula 1](https://www.youtube.com/watch?v=qAbluRQ6uf0&t=537s) | [Aula 2](https://www.youtube.com/watch?v=xbky26BIJT0) | [Aula 3](https://www.youtube.com/watch?v=XK_auW3iuXg)
 
 ## License
 
