@@ -67,13 +67,23 @@ $ npm -i -g @nestjs/cli
 $ nest new project-name
 ```
 
-## Packages of project
+## Packages used on project
 ```bash
 $ npm i prisma -D
 $ npm i @prisma/client
+$ npm i class-validator class-transformer
 
 # DB
 $ npx prisma init --datasource-provider SQLite
+```
+
+## Create table in Database
+```bash
+# give a name
+$ npx prisma migrate dev
+
+# Seeing database
+$ npx prisma studio
 ```
 
 ## Support
