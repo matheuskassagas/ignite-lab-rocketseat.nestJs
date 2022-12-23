@@ -72,6 +72,8 @@ $ nest new project-name
 $ npm i prisma -D
 $ npm i @prisma/client
 $ npm i class-validator class-transformer
+$ npm i @nestjs/microservices
+$ npm i kafkajs
 
 # DB
 $ npx prisma init --datasource-provider SQLite
